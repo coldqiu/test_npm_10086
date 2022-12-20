@@ -1,0 +1,17 @@
+{
+  "name": "test_npm_10086",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "rollup",
+    "element-plus",
+    "vue"
+  ],
+  "author": "gotta_blue@163.com",
+  "license": "ISC"
+}
