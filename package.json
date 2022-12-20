@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
   },
   "keywords": [
     "test",
@@ -13,5 +15,16 @@
     "vue"
   ],
   "author": "gotta_blue@163.com",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "element-plus": "^2.2.27",
+    "rollup": "^3.7.5",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.45"
+  }
 }
